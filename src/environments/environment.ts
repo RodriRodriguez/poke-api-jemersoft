@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  url: 'https://pokeapp.eba-3apvgsf6.us-west-2.elasticbeanstalk.com'
+  url: 'http://poke-front.eba-3apvgsf6.us-west-2.elasticbeanstalk.com'
 };
 
 /*
