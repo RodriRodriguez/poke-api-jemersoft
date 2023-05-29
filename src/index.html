@@ -6,6 +6,25 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyA6vWEUN2T-lYCrJKJ1hcXvQ7wLVtgUgRY",
+      authDomain: "poke-app-e2b26.firebaseapp.com",
+      projectId: "poke-app-e2b26",
+      storageBucket: "poke-app-e2b26.appspot.com",
+      messagingSenderId: "1063093189110",
+      appId: "1:1063093189110:web:0d4c7a9033b488363c6fd7"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
 </head>
 <body>
   <app-root></app-root>

@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "poke-app-e2b26",
+    "public": "dist/poke-app",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
