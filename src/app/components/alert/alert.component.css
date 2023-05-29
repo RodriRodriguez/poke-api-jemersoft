@@ -1,0 +1,91 @@
+.container-card {
+    background-color: rgb(0, 0, 0);
+    z-index: 1000;
+    opacity: 0.9;
+    width: calc(100%) !important;
+    height: calc(100%) !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.card {
+    max-width: 320px;
+    border-width: 1px;
+    border-color: rgba(255, 87, 87, 1);
+    border-radius: 1rem;
+    background-color: rgba(255, 240, 240, 1);
+    padding: 1rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    grid-gap: 1rem;
+    gap: 1rem;
+}
+
+.icon {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    background-color: rgba(255, 87, 87, 1);
+    padding: 0.5rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.icon svg {
+    height: 1rem;
+    width: 1rem;
+}
+
+.alert {
+    font-weight: 600;
+    color: rgba(255, 87, 87, 1);
+}
+
+.message {
+    margin-top: 1rem;
+    color: rgba(107, 114, 128, 1);
+}
+
+.actions {
+    margin-top: 1.5rem;
+}
+
+.actions a {
+    text-decoration: none;
+}
+
+.mark-as-read,
+.read {
+    display: inline-block;
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 0.75rem 0.25rem;
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+}
+
+.read {
+    background-color: rgba(255, 87, 87, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.mark-as-read {
+    margin-top: 0.5rem;
+    background-color: rgba(255, 240, 240, 1);
+    color: rgba(107, 114, 128, 1);
+    transition: all .15s ease;
+}
+
+.mark-as-read:hover {
+    background-color: rgb(230, 231, 233);
+}
